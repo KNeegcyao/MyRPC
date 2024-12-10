@@ -1,7 +1,7 @@
-package com.kneeg.myRPCVersion0.service.Impl;
+package com.kneeg.myRPCVersion1.service.Impl;
 
-import com.kneeg.myRPCVersion0.common.User;
-import com.kneeg.myRPCVersion0.service.UserService;
+import com.kneeg.myRPCVersion1.common.User;
+import com.kneeg.myRPCVersion1.service.UserService;
 
 import java.util.Random;
 import java.util.UUID;
@@ -14,6 +14,12 @@ public class UserserviceImpl implements UserService {
         //模拟从数据库中查询数据
         User user = new User(id, UUID.randomUUID().toString(), new Random().nextBoolean());
         return user;
+    }
+
+    @Override
+    public Integer insertUserId(User user) {
+        System.out.println("插入数据成功："+user);
+        return 1;
     }
 
 

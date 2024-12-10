@@ -9,6 +9,9 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Random;
 
+/**
+ * 客户端
+ */
 public class RPCClient {
     public static void main(String[] args) {
         try{
