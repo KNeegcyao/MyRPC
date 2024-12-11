@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcfe06f9-c60f-4e1b-b800-88e83c7a4304" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/common/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/service/Impl/UserserviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/service/Impl/UserserviceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kneeg/myRPCVersion0/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="dcfe06f9-c60f-4e1b-b800-88e83c7a4304" name="更改" comment="version2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +64,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.RPCClient">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kneeg.myRPCVersion1.server" />
+      <recent name="com.kneeg.myRPCVersion1.client" />
+      <recent name="com.kneeg.myRPCVersion1.service.Impl" />
+      <recent name="com.kneeg.myRPCVersion1.service" />
+      <recent name="com.kneeg.myRPCVersion1.common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.kneeg.myRPCVersion1.client.RPCClient">
     <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kneeg.myRPCVersion0.client.RPCClient" />
       <module name="MyRPC" />
@@ -96,8 +100,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.kneeg.myRPCVersion1.client.RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kneeg.myRPCVersion1.client.RPCClient" />
+      <module name="MyRPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kneeg.myRPCVersion1.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kneeg.myRPCVersion1.server.RPCServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kneeg.myRPCVersion1.server.RPCServer" />
+      <module name="MyRPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kneeg.myRPCVersion1.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.kneeg.myRPCVersion1.client.RPCClient" />
+        <item itemvalue="应用程序.com.kneeg.myRPCVersion1.server.RPCServer" />
         <item itemvalue="应用程序.RPCClient" />
         <item itemvalue="应用程序.RPCServer" />
       </list>
@@ -112,11 +144,49 @@
       <option name="presentableId" value="Default" />
       <updated>1733669964793</updated>
       <workItem from="1733669965929" duration="2821000" />
-      <workItem from="1733726080705" duration="2887000" />
+      <workItem from="1733726080705" duration="6207000" />
+      <workItem from="1733833596986" duration="6723000" />
+      <workItem from="1733886567677" duration="2283000" />
     </task>
+    <task id="LOCAL-00001" summary="version2">
+      <option name="closed" value="true" />
+      <created>1733845896939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733845896939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2" />
   </component>
 </project>
