@@ -1,4 +1,4 @@
-package com.kneeg.myRPCVersion3.common;
+package com.kneeg.myRPCVersion4.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,12 +7,13 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+// pojo类
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
-public class User implements Serializable {
+@AllArgsConstructor
+public class Blog implements Serializable {
     private Integer id;
-    private String userName;
-    private Boolean sex;
+    private Integer useId;
+    private String title;
 }

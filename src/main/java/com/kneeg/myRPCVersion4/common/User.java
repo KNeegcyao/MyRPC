@@ -1,4 +1,4 @@
-package com.kneeg.myRPCVersion3.common;
+package com.kneeg.myRPCVersion4.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
