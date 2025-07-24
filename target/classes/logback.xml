@@ -1,0 +1,20 @@
+<configuration>
+    <!-- 控制台输出格式 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 设置日志级别 -->
+    <logger name="org.apache.zookeeper" level="INFO"/> <!-- 屏蔽 ZooKeeper DEBUG 日志 -->
+    <logger name="org.apache.curator" level="INFO"/>    <!-- 屏蔽 Curator DEBUG 日志 -->
+    <logger name="io.netty" level="INFO"/>              <!-- 屏蔽 Netty 内部 DEBUG 日志 -->
+
+    <!-- 业务日志级别修改为 INFO -->
+    <logger name="com.kneeg.myRPCVersion6" level="INFO"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
